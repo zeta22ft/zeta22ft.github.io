@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+<html lang="es">
+<head>
+<title>Formulario de contacto</title>
+    <meta charset ="utf-8">
+  <link rel="stylesheet" href="..\\css\contacto.css">
+    
+</head>
+    <body> 
+      <div id="contenedor">
+        <form name="Formulario" action="enviar.php" method="post">
+    
+       
+        <label for="nombre">Ingrese su nombre</label> 
+       <input type="text" name="nombre" id="name" maxlength="10" required/>
+       <br><br>
+       <label for="apellido">Ingrese su apellido</label>
+       <input type="text" name="apellido" size="20" required/>
+        <br><br>
+           
+       <label for="telefono">Ingrese su telefono</label>
+           
+       <input type="text" name="telefono" size="20" required/>
+           <br><br>
+        <label for="email">Ingrese su email</label>
+           
+             <input type="text" name="email" size="20" required/>
+       <br><br>
+       Nacionalidad:
+            <select name="pais">
+                <option value="0">Ingrese una opcion</option>
+                <option value="1">Argentina</option>
+              <option value="2">Uruguay</option>
+               <option value="3">Paraguay</option>
+               <option value="4">Chile</option>
+               <option value="5">El salvador</option>
+               <option value="6">Venezuela</option>
+               <option value="7">Colombia</option>
+               <option value="8">Cuba</option>
+               <option value="9">Bolivia</option>
+               <option value="10">Brasil</option> 
+                <option value="11">Ecuador</option>
+                 <option value="12">Guatemala</option>
+                 <option value="13">Mexico</option>
+                 <option value="14">Nicaragua</option>
+                 <option value="15">Canada</option>
+                 </select>
+                <br><br>
+       <label for="mensaje">Comentarios</label>
+           
+  <textarea name="mensaje"></textarea>
+        
+       <br><br>
+           
+          <button type="submit">Enviar formulario</button>
+       
+
+               </form>  
+          </div>
+            </body>
+          </html>
+        
+    
+
+        
+       
+           
+
+      
+        
+    
+   
